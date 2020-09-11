@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.4)  10 SEP 2020 11:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.4)  10 SEP 2020 16:20
 entering extended mode
 **"d:/zzz coding/latex/lintang.tex"
 ("d:/zzz coding/latex/lintang.tex"
@@ -73,42 +73,176 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
+) ("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+) ("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ ("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+) ("C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty"
+Package: subcaption 2020/08/23 v1.3g Sub-captions (AR)
+ ("C:\Program Files\MiKTeX\tex/latex/caption\caption.sty"
+Package: caption 2020/09/02 v3.5a Customizing captions (AR)
+ ("C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty"
+Package: caption3 2020/08/30 v2.0 caption3 kernel (AR)
+\captionmargin=\dimen146
+\captionmargin@=\dimen147
+\captionwidth=\dimen148
+\caption@tempdima=\dimen149
+\caption@indent=\dimen150
+\caption@parindent=\dimen151
+\caption@hangindent=\dimen152
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count187
+\c@continuedfloat=\count188
+)
+\c@subfigure=\count189
+\c@subtable=\count190
+) ("C:\Program Files\MiKTeX\tex/latex/booktabs\booktabs.sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen153
+\lightrulewidth=\dimen154
+\cmidrulewidth=\dimen155
+\belowrulesep=\dimen156
+\belowbottomsep=\dimen157
+\aboverulesep=\dimen158
+\abovetopsep=\dimen159
+\cmidrulesep=\dimen160
+\cmidrulekern=\dimen161
+\defaultaddspace=\dimen162
+\@cmidla=\count191
+\@cmidlb=\count192
+\@aboverulesep=\dimen163
+\@belowrulesep=\dimen164
+\@thisruleclass=\count193
+\@lastruleclass=\count194
+\@thisrulewidth=\dimen165
+) ("C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ ("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count195
+\rotFPtop=\skip52
+\rotFPbot=\skip53
+\rot@float@box=\box47
+\rot@mess@toks=\toks21
+) ("C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
 ) ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count187
-\l__pdf_internal_box=\box47
+\l__kernel_color_stack_int=\count196
+\l__pdf_internal_box=\box48
 ) ("d:/zzz coding\latex\lintang.aux")
 \openout1 = `lintang.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+ ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count197
+\scratchdimen=\dimen166
+\scratchbox=\box49
+\nofMPsegments=\count198
+\nofMParguments=\count199
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count266
+\MPscratchDim=\dimen167
+\MPnumerator=\count267
+\makeMPintoPDFobject=\count268
+\everyMPtoPDFconversion=\toks23
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ ("d:/zzz coding\latex\lintang.toc")
+\tf@toc=\write3
+\openout3 = `lintang.toc'.
+
  [1
 
-{C:/Users/lintangwisesa/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [1] [2] [3] ("d:/zzz coding\latex\lintang.aux") ) 
+{C:/Users/lintangwisesa/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("d:/zzz coding\latex\lintang.lof")
+\tf@lof=\write4
+\openout4 = `lintang.lof'.
+
+ ("d:/zzz coding\latex\lintang.lot")
+\tf@lot=\write5
+\openout5 = `lintang.lot'.
+
+ [1] [2] [1] [2] [3] [4] [5]
+<A.png, id=42, 389.455pt x 389.455pt>
+File: A.png Graphic file (type png)
+<use A.png>
+Package pdftex.def Info: A.png  used on input line 244.
+(pdftex.def)             Requested size: 172.5pt x 172.49576pt.
+<B.png, id=44, 389.455pt x 389.455pt>
+File: B.png Graphic file (type png)
+<use B.png>
+Package pdftex.def Info: B.png  used on input line 255.
+(pdftex.def)             Requested size: 137.9979pt x 137.99304pt.
+<C.png, id=45, 389.455pt x 389.455pt>
+File: C.png Graphic file (type png)
+<use C.png>
+Package pdftex.def Info: C.png  used on input line 259.
+(pdftex.def)             Requested size: 137.9979pt x 137.99304pt.
+File: B.png Graphic file (type png)
+<use B.png>
+Package pdftex.def Info: B.png  used on input line 269.
+(pdftex.def)             Requested size: 103.50105pt x 103.49626pt.
+File: C.png Graphic file (type png)
+<use C.png>
+Package pdftex.def Info: C.png  used on input line 273.
+(pdftex.def)             Requested size: 103.50105pt x 103.49626pt.
+<D.png, id=46, 389.455pt x 389.455pt>
+File: D.png Graphic file (type png)
+<use D.png>
+Package pdftex.def Info: D.png  used on input line 277.
+(pdftex.def)             Requested size: 103.50105pt x 103.49626pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <d:/zzz coding/latex/A.png> <d:/zzz coding/latex/B.png> <d:/zzz coding/latex/C.png>] [7 <d:/zzz coding/latex/D.png>] ("d:/zzz coding\latex\lintang.bbl") [8] ("d:/zzz coding\latex\lintang.aux") ) 
 Here is how much of TeX's memory you used:
- 1030 strings out of 480790
- 13747 string characters out of 2907032
- 254049 words of memory out of 3000000
- 17089 multiletter control sequences out of 15000+200000
+ 3318 strings out of 480790
+ 51488 string characters out of 2907032
+ 295251 words of memory out of 3000000
+ 19306 multiletter control sequences out of 15000+200000
  539531 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,9n,25p,867b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,9n,47p,867b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "d:/zzz coding\latex\lintang.pdf" (4 pages, 182767 bytes).
+Output written on "d:/zzz coding\latex\lintang.pdf" (11 pages, 279061 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

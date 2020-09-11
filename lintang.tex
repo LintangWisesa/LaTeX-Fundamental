@@ -5,8 +5,21 @@
 \date{6 September 2020}           % tanggal
 
 \usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{rotating}
+\usepackage{setspace}
 
 \begin{document}
+
+    \doublespacing
+    \tableofcontents
+
+    \newpage
+    \listoffigures
+    \listoftables
+
     \pagenumbering{gobble}
     \maketitle
     Hello World
@@ -221,5 +234,113 @@
         \item Caca
     \end{enumerate}
 
+    \newpage
+    \section{Images}
+
+    \begin{figure}[h!]
+        % \begin{center}
+        \centering
+        % h:here !:force t:top b:bottom p:page
+        \includegraphics[width=0.5\linewidth]{A.png}
+        \caption{Captain America}
+        \label{fig:capt}
+        % \end{center}
+    \end{figure}
+
+    Gambar \ref{fig:capt} menampilkan foto Captain America.
+
+    \begin{figure}[h!]
+        \centering
+        \begin{subfigure}[h!]{0.4\linewidth}
+            \includegraphics[width=\linewidth]{B.png}
+            \caption{Iron Man}
+        \end{subfigure}
+        \begin{subfigure}[h!]{0.4\linewidth}
+            \includegraphics[width=\linewidth]{C.png}
+            \caption{Batman}
+        \end{subfigure}
+        \caption{Multi Figure}
+        \label{fig:multi2}
+    \end{figure}
+
+    \begin{figure}[h!]
+        \centering
+        \begin{subfigure}[h!]{0.3\linewidth}
+            \includegraphics[width=\linewidth]{B.png}
+            \caption{Iron Man}
+        \end{subfigure}
+        \begin{subfigure}[h!]{0.3\linewidth}
+            \includegraphics[width=\linewidth]{C.png}
+            \caption{Batman}
+        \end{subfigure}
+        \begin{subfigure}[h!]{0.3\linewidth}
+            \includegraphics[width=\linewidth]{D.png}
+            \caption{Spiderman}
+        \end{subfigure}
+        \caption{Multi Figure 3}
+        \label{fig:multi3}
+    \end{figure}
+
+    \newpage
+    \section{Tables}
+
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{|l|c|r|} 
+            % alignment l:left c:center r:right
+            \hline
+            \textbf{No} & \textbf{Nama} & \textbf{Usia} \\
+            \hline
+            1 & Andi & 21\\
+            2 & Budi & 22\\
+            3 & Caca & 23\\
+            \hline
+        \end{tabular}
+        \caption{Ini tabelku}
+        \label{tab:tabelku}
+    \end{table}
+
+    Sesuai pada tabel \ref{tab:tabelku}, maka diketahui usia Andi adalah $21$.
+
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{|l|c|r|} 
+            % alignment l:left c:center r:right
+            \toprule
+            \textbf{No} & \textbf{Nama} & \textbf{Usia} \\
+            \midrule
+            1 & Andi & 21\\
+            2 & Budi & 22\\
+            3 & Caca & 23\\
+            \bottomrule
+        \end{tabular}
+        \caption{Ini tabelku}
+        \label{tab:tabeldua}
+    \end{table}
+
+    % \begin{sidewaystable}[h!]
+    %     \centering
+    %     \begin{tabular}{|l|c|r|} 
+    %         % alignment l:left c:center r:right
+    %         \toprule
+    %         \textbf{No} & \textbf{Nama} & \textbf{Usia} \\
+    %         \midrule
+    %         1 & Andi & 21\\
+    %         2 & Budi & 22\\
+    %         3 & Caca & 23\\
+    %         \bottomrule
+    %     \end{tabular}
+    %     \caption{Ini tabelku}
+    %     \label{tab:tabel3}
+    % \end{sidewaystable}
+
+    \newpage
+
+    Matematika itu asyik \cite{ARTICLE:1} tes 1 2 3 \cite{BOOK:1} Halo halo Bandung \cite{BOOK:2}
+
+    \bibliography{pustaka}
+    \bibliographystyle{ieeetr}
+    % IEEE Transaction
+    % Institute of Electrical & Electronics Engineering
 
 \end{document}

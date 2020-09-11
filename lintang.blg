@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: lintang.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Database file #1: pustaka.bib
+Warning--empty publisher in BOOK:2
+You've used 3 entries,
+            1876 wiz_defined-function locations,
+            494 strings with 3718 characters,
+and the built_in function-call counts, 577 in all, are:
+= -- 54
+> -- 12
+< -- 0
++ -- 6
+- -- 3
+* -- 27
+:= -- 87
+add.period$ -- 5
+call.type$ -- 3
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 34
+empty$ -- 70
+format.name$ -- 3
+if$ -- 145
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 5
+newline$ -- 14
+num.names$ -- 3
+pop$ -- 17
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 13
+stack$ -- 0
+substring$ -- 20
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 5
+width$ -- 4
+write$ -- 28
+(There was 1 warning)
