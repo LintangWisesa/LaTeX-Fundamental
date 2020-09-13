@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex lintang"] 1599729646 "lintang.aux" "lintang.bbl" "lintang" 1599729648
+["bibtex lintang"] 1599998420 "lintang.aux" "lintang.bbl" "lintang" 1599998671
   "C:/Program Files/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "lintang.aux" 1599729647 2552 2019c171a092d7fdda4f1f4f4ca5454d "pdflatex"
+  "lintang.aux" 1599998671 2718 6bf45f3bdf5360da8fda7da333912ebd "pdflatex"
   "pustaka.bib" 1599729618 614 1ff4a80f4b4cd78dd3e31bbc593e1195 ""
   (generated)
   "lintang.bbl"
   "lintang.blg"
-["pdflatex"] 1599729646 "d:/zzz coding/latex/lintang.tex" "d:/zzz coding/latex/lintang.pdf" "lintang" 1599729648
+["pdflatex"] 1599998670 "d:/zzz coding/latex/lintang.tex" "d:/zzz coding/latex/lintang.pdf" "lintang" 1599998671
   "A.png" 1599712178 31568 c28284a4947e676dc6545b1e13d3bf67 ""
   "B.png" 1599712183 29840 e06517e635f5e86e60b4d67d5dae437d ""
   "C.png" 1599712186 26380 a0bf37b20b4f2a7d28d9ee9ce1fe4d31 ""
@@ -70,20 +70,20 @@
   "C:/Users/lintangwisesa/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1599204966 10010393 667a24980e3fd9501a7f9a78688f7c7d ""
   "C:/Users/lintangwisesa/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1599204735 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "D.png" 1599712189 38952 2f12a2fa387a685c74ec0b92c9513e55 ""
-  "d:/zzz coding/latex/lintang.aux" 1599729647 2552 2019c171a092d7fdda4f1f4f4ca5454d ""
-  "d:/zzz coding/latex/lintang.tex" 1599729639 9077 01b553a307384e0b1a034eb2f601a471 ""
-  "lintang.aux" 1599729647 2552 2019c171a092d7fdda4f1f4f4ca5454d "pdflatex"
-  "lintang.bbl" 1599729646 398 bb22c2a71c44b5819d3b31f34da39378 "bibtex lintang"
-  "lintang.lof" 1599729647 242 2cf9231f4eab26e101835d10eafabb82 "pdflatex"
-  "lintang.lot" 1599729647 154 8f3b82cf1c174a5ca252971279a27199 "pdflatex"
-  "lintang.tex" 1599729639 9077 01b553a307384e0b1a034eb2f601a471 ""
-  "lintang.toc" 1599729647 916 aa01aa4b188eb247be8ef47259d9be0b "pdflatex"
+  "d:/zzz coding/latex/lintang.aux" 1599998671 2718 6bf45f3bdf5360da8fda7da333912ebd ""
+  "d:/zzz coding/latex/lintang.tex" 1599998669 9330 bc112083e876324a945f5f6260d8b8bf ""
+  "lintang.aux" 1599998671 2718 6bf45f3bdf5360da8fda7da333912ebd "pdflatex"
+  "lintang.bbl" 1599998420 398 bb22c2a71c44b5819d3b31f34da39378 "bibtex lintang"
+  "lintang.lof" 1599998671 242 2cf9231f4eab26e101835d10eafabb82 "pdflatex"
+  "lintang.lot" 1599998671 231 2c33e829f1cf4f5beeee015991947533 "pdflatex"
+  "lintang.tex" 1599998669 9330 bc112083e876324a945f5f6260d8b8bf ""
+  "lintang.toc" 1599998671 916 aa01aa4b188eb247be8ef47259d9be0b "pdflatex"
   (generated)
-  "d:/zzz coding/latex/lintang.pdf"
-  "lintang.lot"
-  "lintang.lof"
-  "lintang.log"
   "lintang.aux"
+  "lintang.lof"
+  "lintang.lot"
   "lintang.pdf"
   "d:/zzz coding/latex/lintang.log"
+  "lintang.log"
   "lintang.toc"
+  "d:/zzz coding/latex/lintang.pdf"

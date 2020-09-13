@@ -4,6 +4,7 @@
 \author{Lintang Wisesa}           % author
 \date{6 September 2020}           % tanggal
 
+% import packages
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{subcaption}
@@ -13,10 +14,13 @@
 
 \begin{document}
 
+    % set spacing using "setspace" package
     \doublespacing
+    % create table of content
     \tableofcontents
 
     \newpage
+    % create list of figures & tables
     \listoffigures
     \listoftables
 
@@ -40,16 +44,17 @@
         \subparagraph{Lorem}
         ipsum bla bla bla
 
+    % Math Equation
     \section{Equation}
     Lorem ipsum x + y = 24 dolor $x + y = 24$ sit amet, consectetur adipiscing elit. Phasellus dignissim luctus nibh ut finibus. Praesent ultricies congue placerat. Suspendisse sagittis augue id est fermentum, in condimentum orci interdum. Vestibulum bibendum auctor neque quis consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec at ex ut nibh interdum mollis mattis vitae nulla. Fusce vel tincidunt ligula. Fusce vehicula enim risus, eu aliquet purus molestie non. Cras gravida bibendum tincidunt. Proin vitae est in mauris finibus bibendum. Nulla ante est, elementum at mauris sed, imperdiet pretium arcu. Fusce feugiat, massa non facilisis venenatis, mauris urna pellentesque velit, nec tempus tellus eros at elit. Donec dictum orci eu purus commodo eleifend.
     
-    % \begin{equation}
-    %     2x + y = 12
-    % \end{equation}
+    \begin{equation}
+        2x + y = 12
+    \end{equation}
 
-    % \begin{equation*}
-    %     3a + 2c = 12
-    % \end{equation*}
+    \begin{equation*}
+        3a + 2c = 12
+    \end{equation*}
 
     \begin{align*}
         2s + 3d = 25\\
@@ -69,6 +74,7 @@
         3a &= 20 
     \end{align*}
 
+    % Symbols
     \newpage
     \section{Symbol}
     \subsection{Text Formatting}
@@ -163,6 +169,7 @@
         }
     $
 
+    % Math Function
     \newpage
     \section{Functions}
 
@@ -209,7 +216,7 @@
     \iiint f(x, y, z) dx dy dz \: \:
     $
 
-
+    % List
     \section{List}
     
     \subsection{Unordered List}
@@ -234,6 +241,7 @@
         \item Caca
     \end{enumerate}
 
+    % Images
     \newpage
     \section{Images}
 
@@ -281,6 +289,7 @@
         \label{fig:multi3}
     \end{figure}
 
+    % Table
     \newpage
     \section{Tables}
 
@@ -318,29 +327,30 @@
         \label{tab:tabeldua}
     \end{table}
 
-    % \begin{sidewaystable}[h!]
-    %     \centering
-    %     \begin{tabular}{|l|c|r|} 
-    %         % alignment l:left c:center r:right
-    %         \toprule
-    %         \textbf{No} & \textbf{Nama} & \textbf{Usia} \\
-    %         \midrule
-    %         1 & Andi & 21\\
-    %         2 & Budi & 22\\
-    %         3 & Caca & 23\\
-    %         \bottomrule
-    %     \end{tabular}
-    %     \caption{Ini tabelku}
-    %     \label{tab:tabel3}
-    % \end{sidewaystable}
+    % Sideways table using "rotating" package
+    \begin{sidewaystable}[p!]
+        \centering
+        \begin{tabular}{|l|c|r|} 
+            % alignment l:left c:center r:right
+            \toprule
+            \textbf{No} & \textbf{Nama} & \textbf{Usia} \\
+            \midrule
+            1 & Andi & 21\\
+            2 & Budi & 22\\
+            3 & Caca & 23\\
+            \bottomrule
+        \end{tabular}
+        \caption{Ini tabelku}
+        \label{tab:tabel3}
+    \end{sidewaystable}
 
     \newpage
 
     Matematika itu asyik \cite{ARTICLE:1} tes 1 2 3 \cite{BOOK:1} Halo halo Bandung \cite{BOOK:2}
 
+    % create bibliography
     \bibliography{pustaka}
     \bibliographystyle{ieeetr}
-    % IEEE Transaction
-    % Institute of Electrical & Electronics Engineering
+    % IEEE Transaction: Institute of Electrical & Electronics Engineering
 
 \end{document}

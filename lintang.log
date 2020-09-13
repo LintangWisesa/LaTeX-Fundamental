@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.4)  10 SEP 2020 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.4)  13 SEP 2020 19:04
 entering extended mode
 **"d:/zzz coding/latex/lintang.tex"
 ("d:/zzz coding/latex/lintang.tex"
@@ -149,20 +149,20 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 ) ("d:/zzz coding\latex\lintang.aux")
 \openout1 = `lintang.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
  ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count197
@@ -201,48 +201,48 @@ Package caption Info: End \AtBeginDocument code.
 <A.png, id=42, 389.455pt x 389.455pt>
 File: A.png Graphic file (type png)
 <use A.png>
-Package pdftex.def Info: A.png  used on input line 244.
+Package pdftex.def Info: A.png  used on input line 252.
 (pdftex.def)             Requested size: 172.5pt x 172.49576pt.
 <B.png, id=44, 389.455pt x 389.455pt>
 File: B.png Graphic file (type png)
 <use B.png>
-Package pdftex.def Info: B.png  used on input line 255.
+Package pdftex.def Info: B.png  used on input line 263.
 (pdftex.def)             Requested size: 137.9979pt x 137.99304pt.
 <C.png, id=45, 389.455pt x 389.455pt>
 File: C.png Graphic file (type png)
 <use C.png>
-Package pdftex.def Info: C.png  used on input line 259.
+Package pdftex.def Info: C.png  used on input line 267.
 (pdftex.def)             Requested size: 137.9979pt x 137.99304pt.
 File: B.png Graphic file (type png)
 <use B.png>
-Package pdftex.def Info: B.png  used on input line 269.
+Package pdftex.def Info: B.png  used on input line 277.
 (pdftex.def)             Requested size: 103.50105pt x 103.49626pt.
 File: C.png Graphic file (type png)
 <use C.png>
-Package pdftex.def Info: C.png  used on input line 273.
+Package pdftex.def Info: C.png  used on input line 281.
 (pdftex.def)             Requested size: 103.50105pt x 103.49626pt.
 <D.png, id=46, 389.455pt x 389.455pt>
 File: D.png Graphic file (type png)
 <use D.png>
-Package pdftex.def Info: D.png  used on input line 277.
+Package pdftex.def Info: D.png  used on input line 285.
 (pdftex.def)             Requested size: 103.50105pt x 103.49626pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <d:/zzz coding/latex/A.png> <d:/zzz coding/latex/B.png> <d:/zzz coding/latex/C.png>] [7 <d:/zzz coding/latex/D.png>] ("d:/zzz coding\latex\lintang.bbl") [8] ("d:/zzz coding\latex\lintang.aux") ) 
+[6 <d:/zzz coding/latex/A.png> <d:/zzz coding/latex/B.png> <d:/zzz coding/latex/C.png>] [7 <d:/zzz coding/latex/D.png>] [8] ("d:/zzz coding\latex\lintang.bbl") [9] ("d:/zzz coding\latex\lintang.aux") ) 
 Here is how much of TeX's memory you used:
- 3318 strings out of 480790
- 51488 string characters out of 2907032
+ 3320 strings out of 480790
+ 51505 string characters out of 2907032
  295251 words of memory out of 3000000
- 19306 multiletter control sequences out of 15000+200000
+ 19308 multiletter control sequences out of 15000+200000
  539531 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,9n,47p,867b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,10n,47p,867b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "d:/zzz coding\latex\lintang.pdf" (11 pages, 279061 bytes).
+Output written on "d:/zzz coding\latex\lintang.pdf" (12 pages, 279914 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
