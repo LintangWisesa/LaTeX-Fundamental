@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.4)  13 SEP 2020 19:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.4)  15 SEP 2020 11:18
 entering extended mode
-**"d:/zzz coding/latex/lintang.tex"
-("d:/zzz coding/latex/lintang.tex"
+**"d:/zzz coding/latex/LaTeX Fundamental/lintang.tex"
+("d:/zzz coding/latex/LaTeX Fundamental/lintang.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18> ("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -146,7 +146,7 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count196
 \l__pdf_internal_box=\box48
-) ("d:/zzz coding\latex\lintang.aux")
+) ("d:/zzz coding\latex\LaTeX Fundamental\lintang.aux")
 \openout1 = `lintang.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -183,17 +183,17 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
- ("d:/zzz coding\latex\lintang.toc")
+ ("d:/zzz coding\latex\LaTeX Fundamental\lintang.toc")
 \tf@toc=\write3
 \openout3 = `lintang.toc'.
 
  [1
 
-{C:/Users/lintangwisesa/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("d:/zzz coding\latex\lintang.lof")
+{C:/Users/lintangwisesa/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("d:/zzz coding\latex\LaTeX Fundamental\lintang.lof")
 \tf@lof=\write4
 \openout4 = `lintang.lof'.
 
- ("d:/zzz coding\latex\lintang.lot")
+ ("d:/zzz coding\latex\LaTeX Fundamental\lintang.lot")
 \tf@lot=\write5
 \openout5 = `lintang.lot'.
 
@@ -230,17 +230,17 @@ Package pdftex.def Info: D.png  used on input line 285.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <d:/zzz coding/latex/A.png> <d:/zzz coding/latex/B.png> <d:/zzz coding/latex/C.png>] [7 <d:/zzz coding/latex/D.png>] [8] ("d:/zzz coding\latex\lintang.bbl") [9] ("d:/zzz coding\latex\lintang.aux") ) 
+[6 <d:/zzz coding/latex/LaTeX Fundamental/A.png> <d:/zzz coding/latex/LaTeX Fundamental/B.png> <d:/zzz coding/latex/LaTeX Fundamental/C.png>] [7 <d:/zzz coding/latex/LaTeX Fundamental/D.png>] [8] ("d:/zzz coding\latex\LaTeX Fundamental\lintang.bbl") [9] ("d:/zzz coding\latex\LaTeX Fundamental\lintang.aux") ) 
 Here is how much of TeX's memory you used:
  3320 strings out of 480790
- 51505 string characters out of 2907032
+ 51829 string characters out of 2907032
  295251 words of memory out of 3000000
  19308 multiletter control sequences out of 15000+200000
  539531 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,10n,47p,867b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,10n,47p,885b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "d:/zzz coding\latex\lintang.pdf" (12 pages, 279914 bytes).
+Output written on "d:/zzz coding\latex\LaTeX Fundamental\lintang.pdf" (12 pages, 279914 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
