@@ -1,7 +1,7 @@
-PWD d:\zzz coding\belajar_arabtex
+PWD d:\zzz coding\latex\belajar_arabtex
 INPUT C:\Users\lintangwisesa\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\zzz coding\belajar_arabtex\belajar_arabtex.tex
-OUTPUT d:\zzz coding\belajar_arabtex\belajar_arabtex.log
+INPUT d:\zzz coding\latex\belajar_arabtex\belajar_arabtex.tex
+OUTPUT d:\zzz coding\latex\belajar_arabtex\belajar_arabtex.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
@@ -61,9 +61,9 @@ INPUT C:\Program Files\MiKTeX\tex\latex\arabtex\atabg.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\arabtex\alocal.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdfmode.def
-INPUT d:\zzz coding\belajar_arabtex\belajar_arabtex.aux
-INPUT d:\zzz coding\belajar_arabtex\belajar_arabtex.aux
-OUTPUT d:\zzz coding\belajar_arabtex\belajar_arabtex.aux
+INPUT d:\zzz coding\latex\belajar_arabtex\belajar_arabtex.aux
+INPUT d:\zzz coding\latex\belajar_arabtex\belajar_arabtex.aux
+OUTPUT d:\zzz coding\latex\belajar_arabtex\belajar_arabtex.aux
 INPUT C:\Program Files\MiKTeX\tex\latex\arabtex\apatch.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\arabtex\apatch.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\arabtex\alocal.sty
@@ -72,9 +72,9 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\arabtex\uxnsh.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\arabtex\uxnsh.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\arabtex\xnsh14.tfm
-OUTPUT d:\zzz coding\belajar_arabtex\belajar_arabtex.pdf
+OUTPUT d:\zzz coding\latex\belajar_arabtex\belajar_arabtex.pdf
 INPUT C:\Users\lintangwisesa\AppData\Local\MiKTeX\pdftex\config\pdftex.map
-INPUT d:\zzz coding\belajar_arabtex\belajar_arabtex.aux
+INPUT d:\zzz coding\latex\belajar_arabtex\belajar_arabtex.aux
 INPUT C:\Users\lintangwisesa\AppData\Local\MiKTeX\fonts\pk\ljfour\public\arabtex\dpi600\xnsh14.pk
 INPUT C:\Users\lintangwisesa\AppData\Local\MiKTeX\fonts\pk\ljfour\public\arabtex\dpi600\xnsh14.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb

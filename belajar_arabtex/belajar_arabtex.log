@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.23)  7 FEB 2021 11:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.23)  19 FEB 2021 10:33
 entering extended mode
-**"d:/zzz coding/belajar_arabtex/belajar_arabtex.tex"
-("d:/zzz coding/belajar_arabtex/belajar_arabtex.tex"
+**"d:/zzz coding/latex/belajar_arabtex/belajar_arabtex.tex"
+("d:/zzz coding/latex/belajar_arabtex/belajar_arabtex.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18> ("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -79,7 +79,7 @@ Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count272
 \l__pdf_internal_box=\box60
-) ("d:/zzz coding\belajar_arabtex\belajar_arabtex.aux")
+) ("d:/zzz coding\latex\belajar_arabtex\belajar_arabtex.aux")
 \openout1 = `belajar_arabtex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -109,7 +109,7 @@ LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
 (Font)              scaled to size 14.40002pt on input line 8.
  [1
 
-{C:/Users/lintangwisesa/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("d:/zzz coding\belajar_arabtex\belajar_arabtex.aux")
+{C:/Users/lintangwisesa/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("d:/zzz coding\latex\belajar_arabtex\belajar_arabtex.aux")
 
  *File List*
  article.cls    2019/12/20 v1.4l Standard LaTeX document class
@@ -147,14 +147,14 @@ l3backend-pdfmode.def    2020-06-29 L3 backend support: PDF mode
  ) 
 Here is how much of TeX's memory you used:
  2661 strings out of 480790
- 27849 string characters out of 2907030
- 281867 words of memory out of 3000000
+ 27909 string characters out of 2907030
+ 282868 words of memory out of 3000000
  18660 multiletter control sequences out of 15000+200000
  533606 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,4n,27p,259b,183s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,4n,27p,265b,183s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\lintangwisesa\AppData\Local\MiKTeX\fonts/pk/ljfour/public/arabtex/dpi600\xnsh14.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on "d:/zzz coding\belajar_arabtex\belajar_arabtex.pdf" (1 page, 42071 bytes).
+Output written on "d:/zzz coding\latex\belajar_arabtex\belajar_arabtex.pdf" (1 page, 42088 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
