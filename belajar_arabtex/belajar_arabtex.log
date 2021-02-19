@@ -1,0 +1,162 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.23)  7 FEB 2021 11:09
+entering extended mode
+**"d:/zzz coding/belajar_arabtex/belajar_arabtex.tex"
+("d:/zzz coding/belajar_arabtex/belajar_arabtex.tex"
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18> ("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\arabtex.sty" ("C:\Program Files\MiKTeX\tex/latex/arabtex\aconfig.sty"
+LaTeX2e detected 
+\a@moduledate=\count175
+\a@maindate=\count176
+)
+Package: arabtex 2003/08/22  3.11 ArabTeX main module
+ ("C:\Program Files\MiKTeX\tex/latex/arabtex\arabaux.sty"
+Package: arabaux 2003/05/21  3.11 auxiliary macros for ArabTeX
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\acmd.sty"
+Package: acmd 2003/08/20  3.11 Arabic command processing 
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\afonts.sty"
+Package: afonts 1995/11/16  3.04 define Naskh font 
+ ("C:\Program Files\MiKTeX\tex/latex/arabtex\afonts2.sty"
+Package: afonts2 1998/10/19  3.10 define Naskh fonts for LaTeX2e
+)) ("C:\Program Files\MiKTeX\tex/latex/arabtex\ascan.sty"
+Package: ascan 2003/08/22  3.11 standard ZDMG input encoding 
+ (ArabTeX) scanner for code `arabtex' installed. (ArabTeX) input encoding set to ArabTeX standard conventions.) ("C:\Program Files\MiKTeX\tex/latex/arabtex\aparse.sty"
+Package: aparse 2003/05/26  3.11 get syllables 
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\awrite.sty"
+Package: awrite 2003/06/05  3.11 build output word 
+ ("C:\Program Files\MiKTeX\tex/latex/arabtex\xarbsymb.sty"
+Package: xarbsymb 1998/07/15  3.07 symbolic output encoding 
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\arabskel.sty"
+Package: arabskel 2000/06/04  3.10 character skeleton definitions 
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\xarbskel.sty"
+Package: xarbskel 1999/07/17  3.09 character skeleton definitions 
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\aboxes.sty"
+Package: aboxes 2003/05/28  3.11 build output boxes
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\arabtoks.sty"
+Package: arabtoks 1999/07/17  3.09 ArabTeX CS token definitions 
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\arabchrs.sty"
+Package: arabchrs 1998/07/11  3.07 letter token definitions 
+)) ("C:\Program Files\MiKTeX\tex/latex/arabtex\aligs.sty"
+Package: aligs 2003/05/26  3.11 compute ligatures
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\aoutput.sty"
+Package: aoutput 2000/06/04  3.10 build output lines
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\abidir.sty"
+Package: abidir 2003/08/22  3.11 bidirectional linebreaking
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\atrans.sty"
+Package: atrans 2003/06/14  3.11 generate the transliteration 
+ (ArabTeX) ZDMG transliteration.) ("C:\Program Files\MiKTeX\tex/latex/arabtex\alatex.sty"
+Package: alatex 2003/05/04  3.11 ArabTeX extensions for LaTeX 
+ ("C:\Program Files\MiKTeX\tex/latex/arabtex\afoot.sty"
+Package: afoot 2003/05/12  3.11 ArabTeX footnotes
+)) ("C:\Program Files\MiKTeX\tex/latex/arabtex\abjad.sty"
+Package: abjad 2003/04/26  3.11 abjad numerals 
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\apatch.sty" ("C:\Program Files\MiKTeX\tex/latex/arabtex\alists.sty"
+Package: alists 2003/04/26  3.11 inverted list macros
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\asect.sty"
+Package: asect 2003/04/26  3.11 section macros for Arabic
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\atabg.sty"
+Package: atabg 1997/01/21  3.05 LaTeX tabbing macros for Arabic
+) ("C:\Program Files\MiKTeX\tex/latex/arabtex\alocal.sty" (ArabTeX) 3.11 local stub, 26.02.2006)
+Package: apatch 2006/07/02  3.11s last minute patches 
+)
+Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
+(ArabTeX) ... now be patient ... ) ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count272
+\l__pdf_internal_box=\box60
+) ("d:/zzz coding\belajar_arabtex\belajar_arabtex.aux")
+\openout1 = `belajar_arabtex.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+ ("C:\Program Files\MiKTeX\tex/latex/arabtex\apatch.sty"
+\a@lines=\count273
+\a@Lwidth=\dimen157
+\a@displaywidth=\dimen158
+ ("C:\Program Files\MiKTeX\tex/latex/arabtex\alocal.sty" (ArabTeX) 3.11 local stub, 26.02.2006) (ArabTeX) version 3.11s (02.07.2006): second phase of patching)
+LaTeX Font Info:    Trying to load font information for U+xnsh on input line 8.
+ ("C:\Program Files\MiKTeX\tex/latex/arabtex\uxnsh.fd"
+File: uxnsh.fd  1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
+)
+LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
+(Font)              scaled to size 14.40002pt on input line 8.
+ [1
+
+{C:/Users/lintangwisesa/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("d:/zzz coding\belajar_arabtex\belajar_arabtex.aux")
+
+ *File List*
+ article.cls    2019/12/20 v1.4l Standard LaTeX document class
+  size10.clo    2019/12/20 v1.4l Standard LaTeX file (size option)
+ arabtex.sty    2003/08/22  3.11 ArabTeX main module
+ arabaux.sty    2003/05/21  3.11 auxiliary macros for ArabTeX
+    acmd.sty    2003/08/20  3.11 Arabic command processing 
+  afonts.sty    1995/11/16  3.04 define Naskh font 
+ afonts2.sty    1998/10/19  3.10 define Naskh fonts for LaTeX2e
+   ascan.sty    2003/08/22  3.11 standard ZDMG input encoding 
+  aparse.sty    2003/05/26  3.11 get syllables 
+  awrite.sty    2003/06/05  3.11 build output word 
+xarbsymb.sty    1998/07/15  3.07 symbolic output encoding 
+arabskel.sty    2000/06/04  3.10 character skeleton definitions 
+xarbskel.sty    1999/07/17  3.09 character skeleton definitions 
+  aboxes.sty    2003/05/28  3.11 build output boxes
+arabtoks.sty    1999/07/17  3.09 ArabTeX CS token definitions 
+arabchrs.sty    1998/07/11  3.07 letter token definitions 
+   aligs.sty    2003/05/26  3.11 compute ligatures
+ aoutput.sty    2000/06/04  3.10 build output lines
+  abidir.sty    2003/08/22  3.11 bidirectional linebreaking
+  atrans.sty    2003/06/14  3.11 generate the transliteration 
+  alatex.sty    2003/05/04  3.11 ArabTeX extensions for LaTeX 
+   afoot.sty    2003/05/12  3.11 ArabTeX footnotes
+   abjad.sty    2003/04/26  3.11 abjad numerals 
+  apatch.sty    2006/07/02  3.11s last minute patches 
+  alists.sty    2003/04/26  3.11 inverted list macros
+   asect.sty    2003/04/26  3.11 section macros for Arabic
+   atabg.sty    1997/01/21  3.05 LaTeX tabbing macros for Arabic
+l3backend-pdfmode.def    2020-06-29 L3 backend support: PDF mode
+  apatch.sty    2006/07/02  3.11s last minute patches 
+   uxnsh.fd     1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
+ ***********
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2661 strings out of 480790
+ 27849 string characters out of 2907030
+ 281867 words of memory out of 3000000
+ 18660 multiletter control sequences out of 15000+200000
+ 533606 words of font info for 28 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,4n,27p,259b,183s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\lintangwisesa\AppData\Local\MiKTeX\fonts/pk/ljfour/public/arabtex/dpi600\xnsh14.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on "d:/zzz coding\belajar_arabtex\belajar_arabtex.pdf" (1 page, 42071 bytes).
+PDF statistics:
+ 81 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
