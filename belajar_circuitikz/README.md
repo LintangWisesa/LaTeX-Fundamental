@@ -1,26 +1,70 @@
 ![simplinnovation](https://1.bp.blogspot.com/-wStk0VZDfMk/YCC0GIRPrDI/AAAAAAAAAGc/1yj7IOUedvoeO1CuCxq7ETLW0FqXni6mwCLcBGAsYHQ/s320/logotext.png)
 
-# __LaTeX Tutorial__
+# __Circuiti*k*Z__
+
+[![Video](https://img.youtube.com/vi/EXUcCZnR1bg/0.jpg)](https://www.youtube.com/watch?v=EXUcCZnR1bg)
+
+__Circuiti*k*Z__ merupakan free package untuk menyisipkan gambar skema/diagram rangkaian komponen elektronika di dokumen LaTeX. Tutorial kali ini membahas step-by-step bagaimana cara menggambarkan skema rangkaian elektronika di dokumen LaTeX menggunakan __MiKTeX__, __Visual Studio Code__ dan package __Circuiti*k*Z__. Jika Anda belum familiar dengan LaTeX, ada baiknya simak tutorial dasar LaTeX menggunakan MiKTeX & VS code berdurasi 2 jam berikut (_klik gambar berikut_).
 
 [![Video](https://img.youtube.com/vi/S_D16cfhxtE/0.jpg)](https://www.youtube.com/watch?v=S_D16cfhxtE)
 
-__LaTeX__ merupakan sistem penyiapan dokumen untuk peranti lunak TeX, yang digunakan untuk membuat format dokumen ilmiah atau formula matematika. LaTeX banyak digunakan untuk membuat dokumen ilmiah, paper, karya tulis, jurnal bahkan buku terutama di bidang sains & teknologi. Tutorial kali ini membahas _step-by-step_ bagaimana cara membuat dokumen LaTeX menggunakan MiKTeX & Visual Studio Code.
+#
+
+## __A. Instalasi__
+
+1. Open __MiKTeX Console__, pada _Operation Mode_ pilih salah satu opsi role: sebagai __admin__ (_Switch to MiKTeX administrator mode_) atau __user__ (_Stay in MiKTeX user mode_).
+
+2. Masuk menu _Packages_ lalu ketik _circuitikz_ di text input, kemudian install dengan klik icon plus (`+`).
 
 #
 
-⏰ Timestamp links | 📚 Bahasan Materi
----|---
-[#1 Intro](https://youtu.be/S_D16cfhxtE?t=40) | <ul><li>Apa itu LaTeX?</li><li>LaTeX document example</li><li>MiKTeX installation</li><li>Perl installation</li><li>VS Code & LaTeX Workshop Setup</li><li>Build LaTeX project</li></ul>
-[#2 Documents](https://youtu.be/S_D16cfhxtE?t=949) | <ul><li>Title, Author & Date</li><li>New Page</li><li>Page Numbering</li><li>Section & Subsection</li><li>Paragraph & Subparagraph</li></ul>
-[#3 Math Equation](https://youtu.be/S_D16cfhxtE?t=1417) | <ul><li>Equation</li><li>Using ```amsmath``` package</li><li>Symbols</li><li>Functions</li></ul>
-[#4 List](https://youtu.be/S_D16cfhxtE?t=4593) | <ul><li>Unordered List</li><li>Ordered List</li><li>Nested List</li><li>Custom item symbol</li></ul>
-[#5 Figure](https://youtu.be/S_D16cfhxtE?t=4981) | <ul><li>Insert image</li><li>Using ```graphicx``` package</li><li>Multi Figure</li></ul>
-[#6 Table](https://youtu.be/S_D16cfhxtE?t=5922) | <ul><li>Basic table</li><li>Using ```booktabs``` package</li><li>Sideways table</li></ul>
-[#7 Table of Contents](https://youtu.be/S_D16cfhxtE?t=6594) | <ul><li>Table of Contents</li><li>List of Figures</li><li>List of Tables</li></ul>
-[#8 Bibliography](https://youtu.be/S_D16cfhxtE?t=6770) | <ul><li>Create ```.bib``` file</li><li>Citation & References</li></ul>
-[#9 Closing](https://youtu.be/S_D16cfhxtE?t=7525) | <ul><li>Summary</li><li>References</li></ul>
+## __B. Contoh Penggunaan__
 
-<hr>
+- LaTeX script:
+
+    ```latex
+    \documentclass{article}
+    \usepackage{circuitikz}
+
+    \begin{document}
+        \section{Symbol}
+        \subsection{Resistor}
+        \begin{enumerate}
+            \item Basic Resistor
+            
+            \begin{circuitikz}[american]
+                \draw (0,0) to[resistor] (2,0);
+                \draw (2.5,0) to[R] (4.5,0);
+                \draw (5,0) to[R, l=$R_1$] (7,0);
+                \draw (7.5,0) to[R, a^=$5\Omega$] (9.5,0);
+            \end{circuitikz}
+
+            \vspace{0.3in}
+            
+            \begin{circuitikz}[european]
+                \draw (0,0) to[resistor] (2,0);
+                \draw (2.5,0) to[R] (4.5,0);
+                \draw (5,0) to[R, a=$100\Omega$] (7,0);
+                \draw (7.5,0) to[R=$10\Omega$] (9.5,0);
+            \end{circuitikz}
+
+            \vspace{0.3in}
+
+            \begin{circuitikz}
+                \draw (0,0) to[R=$133\Omega$, i=$10mA$, v=$3mV$] (3,0);
+            \end{circuitikz}
+            \begin{circuitikz}[european]
+                \draw (3.5,0) to[R=$133\Omega$, i=$10mA$, v=$3mV$] (6.5,0);
+            \end{circuitikz}
+        \end{enumerate}
+    \end{document}
+    ```
+
+- Output:
+
+    ![circuitikz output](https://1.bp.blogspot.com/-rdzhjQZl_Iw/YC3y2qlEOrI/AAAAAAAAAG0/Cc2ktM4r8hoj3BjtpsJoaCMdwY9FcuF6gCLcBGAsYHQ/s320/Anotasi%2B2021-02-18%2B115218.png)
+
+#
 
 #### 🍔 Lintang Wisesa
 

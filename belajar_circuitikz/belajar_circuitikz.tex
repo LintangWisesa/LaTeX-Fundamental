@@ -1,0 +1,661 @@
+\documentclass{article}
+\usepackage{circuitikz}
+
+\begin{document}
+    
+    % PATH METHOD
+    % \draw (x1,y1) to[namakomponen] (x2,y2);
+    \begin{circuitikz}
+        \draw (0,0) to[resistor] (3,0);
+        \draw (0,0) to[resistor] (0,-3);
+    \end{circuitikz}
+
+    \vspace{0.3in}
+
+    % NODE METHOD
+    % \draw (x,y) node[namakomponen](var){label};
+    \begin{circuitikz}
+        \draw (1.5,0) node[resistorshape](R){}
+        (R.left) --(0,0)
+        (R.right) --(3,0);
+    \end{circuitikz}
+
+    \section{Symbol}
+
+    \subsection{Resistor}
+
+    \begin{enumerate}
+
+        % ########################################
+        % BASIC RESISTOR
+        \item Basic Resistor
+        
+        \begin{circuitikz}[american]
+            \draw (0,0) to[resistor] (2,0);
+            \draw (2.5,0) to[R] (4.5,0);
+            \draw (5,0) to[R, l=$R_1$] (7,0);
+            \draw (7.5,0) to[R, a^=$5\Omega$] (9.5,0);
+        \end{circuitikz}
+
+        \vspace{0.3in}
+        
+        \begin{circuitikz}[european]
+            \draw (0,0) to[resistor] (2,0);
+            \draw (2.5,0) to[R] (4.5,0);
+            \draw (5,0) to[R, a=$100\Omega$] (7,0);
+            \draw (7.5,0) to[R=$10\Omega$] (9.5,0);
+        \end{circuitikz}
+
+        \vspace{0.3in}
+
+        \begin{circuitikz}
+            \draw (0,0) to[R=$133\Omega$, i=$10mA$, v=$3mV$] (3,0);
+        \end{circuitikz}
+        \begin{circuitikz}[european]
+            \draw (3.5,0) to[R=$133\Omega$, i=$10mA$, v=$3mV$] (6.5,0);
+        \end{circuitikz}
+
+        % ########################################
+        % VARIABLE RESISTOR
+        \vspace{0.3in}
+        \item Variable Resistor
+        
+        \begin{circuitikz}
+            \draw (0,0) to[variable resistor] (2,0);
+            \draw (2.5,0) to[vR, l=$vR$] (4.5,0);
+        \end{circuitikz}
+
+        \vspace{0.3in}
+
+        \begin{circuitikz}[european]
+            \draw (0,0) to[variable resistor] (2,0);
+            \draw (2.5,0) to[vR, a=$15\Omega$] (4.5,0);
+        \end{circuitikz}
+
+        % ########################################
+        % POTENTIOMETER
+        \vspace{0.3in}
+        \item Potentiometer
+        
+        \begin{circuitikz}
+            \draw (0,0) to[potentiometer] (2,0);
+            \draw (2.5,0) to[pR, l=$vR$] (4.5,0);
+        \end{circuitikz}
+
+        \vspace{0.3in}
+
+        \begin{circuitikz}[european]
+            \draw (0,0) to[potentiometer] (2,0);
+            \draw (2.5,0) to[pR, a=$15\Omega$] (4.5,0);
+        \end{circuitikz}
+
+        % ########################################
+        % PHOTORESISTOR
+        \vspace{0.3in}
+        \item Photoresistor
+        
+        \begin{circuitikz}
+            \draw (0,0) to[photoresistor] (2,0);
+            \draw (2.5,0) to[phR, l=$vR$] (4.5,0);
+        \end{circuitikz}
+
+        \vspace{0.3in}
+
+        \begin{circuitikz}[european]
+            \draw (0,0) to[photoresistor] (2,0);
+            \draw (2.5,0) to[phR, a=$15\Omega$] (4.5,0);
+        \end{circuitikz}
+
+        % ########################################
+        % THERMISTOR
+        \vspace{0.3in}
+        \item Thermistor
+        
+        \begin{circuitikz}
+            \draw (0,0) to[thermistor] (2,0);
+            \draw (2.5,0) to[thR, l=$vR$] (4.5,0);
+            \draw (5,0) to[thermistor ptc] (7,0);
+            \draw (7.5,0) to[thermistor ntc] (9.5,0);
+        \end{circuitikz}
+
+        \vspace{0.3in}
+
+        \begin{circuitikz}[european]
+            \draw (0,0) to[thermistor] (2,0);
+            \draw (2.5,0) to[thR, a=$15\Omega$] (4.5,0);
+            \draw (5,0) to[thRp] (7,0);
+            \draw (7.5,0) to[thRn] (9.5,0);
+        \end{circuitikz}
+
+        % ########################################
+        % VARISTOR
+        \vspace{0.3in}
+        \item Varistor
+        
+        \begin{circuitikz}
+            \draw (0,0) to[varistor] (2,0);
+            \draw (0,0) to[varistor, a=$10\Omega$] (2,0);
+        \end{circuitikz}
+
+    \end{enumerate}
+
+    \newpage
+
+    \subsection{Kapasitor}
+
+        \begin{enumerate}
+
+            % ########################################
+            % BASIC CAPACITOR
+            \item Basic Capacitor
+            
+            \begin{circuitikz}
+                \draw (0,0) to[capacitor] (2,0);
+                \draw (2.5,0) to[C, l=$C_1$] (4.5,0);
+                \draw (5,0) to[C, a=$100 \mu F$] (7.5,0);
+                \draw (8,0) to[C, a^=$100 \mu F$] (10,0);
+            \end{circuitikz}
+
+            % ########################################
+            % POLAR CAPACITOR
+            \item Polar Capacitor
+            
+            \begin{circuitikz}
+                \draw (0,0) to[polar capacitor] (2,0);
+                \draw (2.5,0) to[pC, l=$C_1$] (4.5,0);
+                \draw (5,0) to[pC, a=$100 \mu F$] (7.5,0);
+                \draw (8,0) to[pC, a^=$100 \mu F$] (10,0);
+            \end{circuitikz}
+
+            % ########################################
+            % ELECTROLYTHIC CAPACITOR
+            \item Electrolythic Capacitor
+            
+            \begin{circuitikz}
+                \draw (0,0) to[ecapacitor] (2,0);
+                \draw (2.5,0) to[eC, l=$C_1$] (4.5,0);
+                \draw (5,0) to[eC, a=$100 \mu F$] (7.5,0);
+                \draw (8,0) to[eC, a^=$100 \mu F$] (10,0);
+            \end{circuitikz}
+
+            % ########################################
+            % VARIABLE CAPACITOR
+            \item Variable Capacitor
+            
+            \begin{circuitikz}
+                \draw (0,0) to[variable capacitor] (2,0);
+                \draw (2.5,0) to[vC, l=$C_1$] (4.5,0);
+                \draw (5,0) to[vC, a=$100 \mu F$] (7.5,0);
+                \draw (8,0) to[vC, a^=$100 \mu F$] (10,0);
+            \end{circuitikz}
+
+        \end{enumerate}
+
+    \newpage
+    \subsection{Inductor}
+
+        \begin{enumerate}
+            % ############################
+            % BASIC INDUCTOR
+            \item Basic Inductor
+        
+            \begin{circuitikz}
+                \draw (0,0) to[inductor] (2,0);
+                \draw (2.5,0) to[L, l=$L_1$] (4.5,0);
+                \draw (5,0) to[L, a=$1 H$] (7,0);
+            \end{circuitikz}
+
+            \vspace{0.1in}
+
+            \begin{circuitikz}[american]
+                \draw (0,0) to[inductor] (2,0);
+                \draw (2.5,0) to[L, l=$L_1$] (4.5,0);
+                \draw (5,0) to[L, a=$1 H$] (7,0);
+            \end{circuitikz}
+
+            \vspace{0.1in}
+
+            \begin{circuitikz}[european]
+                \draw (0,0) to[inductor] (2,0);
+                \draw (2.5,0) to[L, l=$L_1$] (4.5,0);
+                \draw (5,0) to[L, a=$1 H$] (7,0);
+            \end{circuitikz}
+
+            % ############################
+            % VARIABLE INDUCTOR
+            \item Variable Inductor
+
+            \begin{circuitikz}
+                \draw (0,0) to[variable inductor] (2,0);
+                \draw (2.5,0) to[vL, l=$L_1$] (4.5,0);
+                \draw (5,0) to[vL, a=$1 H$] (7,0);
+            \end{circuitikz}
+
+            \vspace{0.1in}
+
+            \begin{circuitikz}[american]
+                \draw (0,0) to[variable inductor] (2,0);
+                \draw (2.5,0) to[vL, l=$L_1$] (4.5,0);
+                \draw (5,0) to[vL, a=$1 H$] (7,0);
+            \end{circuitikz}
+
+            \vspace{0.1in}
+
+            \begin{circuitikz}[european]
+                \draw (0,0) to[variable inductor] (2,0);
+                \draw (2.5,0) to[vL, l=$L_1$] (4.5,0);
+                \draw (5,0) to[vL, a=$1 H$] (7,0);
+            \end{circuitikz}
+
+        \end{enumerate}
+    
+    \newpage
+    \subsection{Dioda}
+        \begin{enumerate}
+            
+            % ##########################
+            % BASIC DIODA
+            \item Basic Dioda
+            
+            \begin{circuitikz}
+                \draw (0,0) to[diode] (2,0);
+                \draw (2.5,0) to[Do, l=$Do$] (4.5,0);
+            \end{circuitikz}
+            
+            \vspace{0.1in}
+
+            \begin{circuitikz}
+                \draw (0,0) node[left]{Anode} 
+                to[Do, l=$diode$] (2,0)
+                node[right]{Cathode};
+            \end{circuitikz}
+
+            \vspace{0.1in}
+
+            \begin{circuitikz}
+                \draw (0,0) to[full diode] (2,0);
+                \draw (2.5,0) to[D*, l=$Do$] (4.5,0);
+            \end{circuitikz}
+
+            % #############################
+            % LED Light Emitting Diode
+            \item LED
+            
+            \begin{circuitikz}
+                \draw (0,0) to[led] (2,0);
+                \draw (2.5,0) to[leDo] (4.5,0);
+                \draw (5,0) to[full led] (7,0);
+                \draw (7.5,0) to[leD*] (9.5,0);
+            \end{circuitikz}
+
+            % #############################
+            % PhotoDiode
+            \item Photodiode
+            
+            \begin{circuitikz}
+                \draw (0,0) to[photodiode] (2,0);
+                \draw (2.5,0) to[pDo] (4.5,0);
+                \draw (5,0) to[full photodiode] (7,0);
+                \draw (7.5,0) to[pD*] (9.5,0);
+            \end{circuitikz}
+
+            % #############################
+            % Varicap Diode
+            \item Varicap diode
+            
+            \begin{circuitikz}
+                \draw (0,0) to[varcap] (2,0);
+                \draw (2.5,0) to[VCo] (4.5,0);
+                \draw (5,0) to[full varcap] (7,0);
+                \draw (7.5,0) to[VC*] (9.5,0);
+            \end{circuitikz}
+
+            % #############################
+            % Tunnel Diode
+            \item Tunnel diode
+            
+            \begin{circuitikz}
+                \draw (0,0) to[tunnel diode] (2,0);
+                \draw (2.5,0) to[tDo] (4.5,0);
+                \draw (5,0) to[full tunnel diode] (7,0);
+                \draw (7.5,0) to[tD*] (9.5,0);
+            \end{circuitikz}
+
+            % #############################
+            % Zenner Diode
+            \item Zenner diode
+            
+            \begin{circuitikz}
+                \draw (0,0) to[ZZener diode] (2,0);
+                \draw (2.5,0) to[zzDo] (4.5,0);
+                \draw (5,0) to[full ZZener diode] (7,0);
+                \draw (7.5,0) to[zzD*] (9.5,0);
+            \end{circuitikz}
+
+            % #############################
+            % Schottky Diode
+            \item Schottky diode
+            
+            \begin{circuitikz}
+                \draw (0,0) to[Schottky diode] (2,0);
+                \draw (2.5,0) to[sDo] (4.5,0);
+                \draw (5,0) to[full Schottky diode] (7,0);
+                \draw (7.5,0) to[sD*] (9.5,0);
+            \end{circuitikz}
+        
+        \end{enumerate}
+
+    \newpage
+    \subsection{Transistor}
+
+    \begin{enumerate}
+        
+        % ########################
+        % NPN TRANSISTOR
+        \item Transistor NPN
+        
+        \begin{circuitikz}
+            \draw (0,0) node[npn](){};
+
+            \draw (3,0) node[npn](T1){$T_1$};
+            \draw (T1.E) node[below]{Emitter};
+            \draw (T1.C) node[above]{Collector};
+            \draw (T1.B) node[left]{Base};
+
+            \draw (7,0) node[npn](T2){$T_2$}
+            (T2.B) to[R] (5,0);
+        \end{circuitikz}
+
+        % ########################
+        % PNP TRANSISTOR
+        \item Transistor PNP
+        
+        \begin{circuitikz}
+            \draw (0,0) node[pnp](){};
+
+            \draw (3,0) node[pnp](T1){$T_1$};
+            \draw (T1.E) node[above]{Emitter};
+            \draw (T1.C) node[below]{Collector};
+            \draw (T1.B) node[left]{Base};
+
+            \draw (7,0) node[pnp](T2){$T_2$}
+            (T2.B) to[R] (5,0);
+        \end{circuitikz}
+
+        % ########################
+        % NPN PHOTOTRANSISTOR
+        \item PhotoTransistor NPN
+        
+        \begin{circuitikz}
+            \draw (0,0) node[npn, photo](){};
+
+            \draw (3,0) node[npn, photo](T1){$T_1$};
+            \draw (T1.E) node[below]{Emitter};
+            \draw (T1.C) node[above]{Collector};
+            \draw (T1.B) node[left]{Base};
+        \end{circuitikz}
+
+        % ########################
+        % PNP PHOTOTRANSISTOR
+        \item PhotoTransistor PNP
+        
+        \begin{circuitikz}
+            \draw (0,0) node[pnp, photo](){};
+
+            \draw (3,0) node[pnp, photo](T1){$T_1$};
+            \draw (T1.E) node[above]{Emitter};
+            \draw (T1.C) node[below]{Collector};
+            \draw (T1.B) node[left]{Base};
+        \end{circuitikz}
+
+        % ########################
+        % MOSFET: metal oxide semiconductor FET field effect transistor
+        \item MOSFET
+        
+        \begin{circuitikz}
+            \draw (0,0) node[nmos](nMOS){$nMOS$};
+            \draw (3,0) node[pmos](pMOS){$pMOS$};
+        \end{circuitikz}
+    
+    \end{enumerate}
+
+    \newpage
+    \subsection{Transformer}
+
+    \begin{enumerate}
+        
+        \item Transformer
+        
+        \begin{circuitikz}
+            \draw (0,0) node[transformer](T1){};
+        \end{circuitikz}
+
+        \begin{circuitikz}[american]
+            \draw (0,0) node[transformer](T2){};
+        \end{circuitikz}
+        
+        \begin{circuitikz}[european]
+            \draw (0,0) node[transformer](T3){};
+        \end{circuitikz}
+
+        \begin{circuitikz}
+            \draw (0,0) node[transformer](T4){};
+            \draw (T4.base) node{$T_1$};
+            \draw (T4.A1) node[left]{$A_1 (P_1)$};
+            \draw (T4.A2) node[left]{$A_2 (P_2)$};
+            \draw (T4.B1) node[right]{$B_1 (S_1)$};
+            \draw (T4.B2) node[right]{$B_2 (S_2)$};
+        \end{circuitikz}
+
+    \end{enumerate}
+
+    \newpage
+    \subsection{Measurement tools}
+
+    \begin{enumerate}
+
+        \item Amperemeter
+        
+        \begin{circuitikz}
+            \draw (0,0) to[ammeter] (2,0);        
+        \end{circuitikz}
+
+        \item Voltmeter
+        
+        \begin{circuitikz}
+            \draw (0,0) to[voltmeter] (2,0);        
+        \end{circuitikz}
+
+        \item Ohmmeter
+        
+        \begin{circuitikz}
+            \draw (0,0) to[ohmmeter] (2,0);        
+        \end{circuitikz}
+    
+    \end{enumerate}
+
+    \subsection{Sources}
+    
+    \begin{enumerate}
+        
+        \item Basic Source
+        
+        \begin{circuitikz}
+            \draw (0,0) to[voltage source, l=$V$] (2,0);
+            \draw (2.5,0) to[current source, l=$I$] (4.5,0);
+        \end{circuitikz}
+
+        \begin{circuitikz}[american]
+            \draw (0,0) to[voltage source, l=$V$] (2,0);
+            \draw (2.5,0) to[current source, l=$I$] (4.5,0);
+        \end{circuitikz}
+
+        \begin{circuitikz}[european]
+            \draw (0,0) to[voltage source, l=$V$] (2,0);
+            \draw (2.5,0) to[current source, l=$I$] (4.5,0);
+        \end{circuitikz}
+
+        \item Battery
+        
+        \begin{circuitikz}
+            \draw (0,0) to[battery, l=$V$, a=$3V$] (2,0);
+            \draw (2.5,0) to[battery1, l=$V$, a=$1.5V$] (4.5,0);
+            \draw (5,0) to[battery2, l=$V$, a=$1.5V$] (7,0);
+        \end{circuitikz}
+
+        \item DC Source
+        
+        \begin{circuitikz}
+            \draw (0,0) to[dcvsource, l=$V_\textrm{{\tiny{DC}}}$] (2,0);
+            \draw (2.5,0) to[dcisource, l=$I_\textrm{{\tiny{DC}}}$] (4.5,0);
+            \draw (5,0) to[sinusoidal voltage source, l=$V_\textrm{{\tiny{AC}}}$] (7,0);
+        \end{circuitikz}
+
+    \end{enumerate}
+
+    \newpage
+    \subsection{Switch}
+
+    \begin{enumerate}
+        
+        \item Close SPST: single pull single throw
+        
+        \begin{circuitikz}
+            \draw (0,0) to[switch, l=$\textrm{\tiny{switch}}$] (2,0);
+            \draw (2.5,0) to[spst, l=$\textrm{\tiny{spst}}$] (4.5,0);
+            \draw (5,0) to[closing switch, l=$\textrm{\tiny{closing switch}}$] (7,0);
+            \draw (7.5,0) to[cspst, l=$\textrm{\tiny{cspst}}$] (9.5,0);
+        \end{circuitikz}
+
+        \item Open SPST: single pull single throw
+        
+        \begin{circuitikz}
+            \draw (0,0) to[nos, l=$\textrm{\tiny{nos}}$] (2,0);
+            \draw (2.5,0) to[normal open switch, l=$\textrm{\tiny{normal open switch}}$] (4.5,0);
+            \draw (5,0) to[opening switch, l=$\textrm{\tiny{opening switch}}$] (7,0);
+            \draw (7.5,0) to[ospst, l=$\textrm{\tiny{ospst}}$] (9.5,0);
+        \end{circuitikz}
+
+        \item Normal close switch
+        
+        \begin{circuitikz}
+            \draw (0,0) to[normal closed switch] (2,0);
+            \draw (2.5,0) to[ncs] (4.5,0);
+        \end{circuitikz}
+
+        \item Push button
+        
+        \begin{circuitikz}
+            \draw (0,0) to[push button] (2,0);
+        \end{circuitikz}
+
+        \item Toggle switch
+        
+        \begin{circuitikz}
+            \draw (0,0) to[toggle switch] (2,0);
+        \end{circuitikz}
+
+        \item SPDT: single pull double throw
+        
+        \begin{circuitikz}
+            \draw (0,0) node[spdt](S){};
+            \draw (2,0) node[spdt](S1){}
+            (S1.in) node[left] {in}
+            (S1.out 1) node[right] {out 1}
+            (S1.out 2) node[right] {out 2};
+        \end{circuitikz}
+
+    \end{enumerate}
+
+    \newpage
+    \subsection{Gerbang Logika}
+
+    \vspace{0.1in}
+
+    \begin{circuitikz}[american]
+        \draw (0,0) node[and port]{\tiny{and}};
+        \draw (1.5,0) node[or port]{\tiny{or}};
+        \draw (3,0) node[nand port]{\tiny{nand}};
+    \end{circuitikz}
+
+    \vspace{0.1in}
+
+    \begin{circuitikz}[american]
+        \draw (4.5,0) node[nor port]{\tiny{nor}};
+        \draw (6,0) node[xor port]{\tiny{xor}};
+        \draw (7.5,0) node[xnor port]{\tiny{xnor}};
+    \end{circuitikz}
+
+    \vspace{0.1in}
+
+    \begin{circuitikz}[european]
+        \draw (0,0) node[and port]{};
+        \draw (2,0) node[or port]{};
+        \draw (4,0) node[nand port]{};
+    \end{circuitikz}
+
+    \vspace{0.1in}
+    
+    \begin{circuitikz}[european]
+        \draw (6,0) node[nor port]{};
+        \draw (8,0) node[xor port]{};
+        \draw (10,0) node[xnor port]{};
+    \end{circuitikz}
+
+    \newpage
+    \subsection{Draw a circuit}
+
+    Cara menggambar rangkaian elektronika di \LaTeX
+
+    \vspace{0.2in}
+
+    % resistor R1 seri R2, kemudian paralel R3
+    % CARA 1
+    \begin{circuitikz}
+        \draw (0,0) to[R=$R_1$] (2,0);
+        \draw (2,0) to[R=$R_2$] (4,0);
+        \draw (0,0) to (0,-1);
+        \draw (4,0) to (4,-1);
+        \draw (0,-1) to[R, a=$R_3$] (4,-1);
+    \end{circuitikz}
+
+    % CARA 2
+    \begin{circuitikz}
+        \draw (0,0) to[R=$R_1$] (2,0)
+        (2,0) to[R=$R_2$] (4,0)
+        (0,0) to (0,-1)
+        (4,0) to (4,-1)
+        (0,-1) to[R, a=$R_3$] (4,-1);
+    \end{circuitikz}
+
+    % CARA 3
+    \begin{circuitikz}
+        \draw (0,0) to[R=$R_1$] (2,0)
+        (2,0) to[R=$R_2$] (4,0) -- (4,-1)
+        to[R, a=$R_3$] (0,-1) -- (0,0);
+    \end{circuitikz}
+
+    \vspace{0.2in}
+
+    % baterai & LED
+    \begin{circuitikz}
+        \draw (0,0) to[battery, l=$V_1$] (0,2)
+        (2,1) node[emptylediodeshape, rotate=90](L){}
+        (L.right) |- (0,2)
+        (L.left) |- (0,0);
+    \end{circuitikz}
+
+    \vspace{0.2in}
+
+    % baterai & LED beserta amperemeter & voltmeter
+    \begin{circuitikz}
+        \draw (0,0) to[battery, l=$V_1$] (0,2)
+        (0,2) to[ammeter] (2,2)
+        (2,0) to[led] (2,2)
+        (0,0) -- (2,0)
+        (2,0.3) -- (3.3,0.3)
+        (2,1.7) -- (3.3,1.7)
+        (3.3,0.3) to[voltmeter] (3.3,1.7);
+    \end{circuitikz}
+
+\end{document}
